@@ -1,4 +1,4 @@
-name: 'fundscan'
+name: 'fundscan dependency report'
 description: 'See who to fund and which dependencies are at risk, across npm, PyPI, Cargo and Go.'
 
 branding:
