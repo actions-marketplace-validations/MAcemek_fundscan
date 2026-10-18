@@ -1,0 +1,536 @@
+{
+  "recordedAt": "2026-10-18T19:57:31.537Z",
+  "packages": [
+    {
+      "name": "anyhow",
+      "ecosystem": "cargo",
+      "purl": "pkg:cargo/anyhow",
+      "registry": {
+        "name": "crates.io"
+      },
+      "status": null,
+      "funding_links": [
+        "https://github.com/sponsors/dtolnay"
+      ],
+      "latest_release_published_at": "2026-07-18T20:59:37.656Z",
+      "repository_url": "https://github.com/dtolnay/anyhow",
+      "registry_url": "https://crates.io/crates/anyhow/",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2026-09-29T04:29:18.000Z",
+        "commit_stats": {
+          "total_commits": 684,
+          "total_committers": 24,
+          "dds": 0.04385964912280704
+        }
+      }
+    },
+    {
+      "name": "clap",
+      "ecosystem": "cargo",
+      "purl": "pkg:cargo/clap",
+      "registry": {
+        "name": "crates.io"
+      },
+      "status": null,
+      "funding_links": [
+        "https://github.com/sponsors/clap-rs",
+        "https://opencollective.com/clap"
+      ],
+      "latest_release_published_at": "2026-09-14T18:40:28.474Z",
+      "repository_url": "https://github.com/clap-rs/clap",
+      "registry_url": "https://crates.io/crates/clap/",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2026-10-06T16:19:09.000Z",
+        "commit_stats": {
+          "total_commits": 6273,
+          "total_committers": 535,
+          "dds": 0.5821775864817471
+        }
+      }
+    },
+    {
+      "name": "lazy_static",
+      "ecosystem": "cargo",
+      "purl": "pkg:cargo/lazy_static",
+      "registry": {
+        "name": "crates.io"
+      },
+      "status": null,
+      "funding_links": [],
+      "latest_release_published_at": "2026-10-01T07:18:53.602Z",
+      "repository_url": "https://github.com/rust-lang-nursery/lazy-static.rs",
+      "registry_url": "https://crates.io/crates/lazy_static/",
+      "repo_metadata": {
+        "archived": true,
+        "pushed_at": "2026-09-16T17:38:39.000Z",
+        "commit_stats": {
+          "total_commits": 198,
+          "total_committers": 57,
+          "dds": 0.6161616161616161
+        }
+      }
+    },
+    {
+      "name": "serde",
+      "ecosystem": "cargo",
+      "purl": "pkg:cargo/serde",
+      "registry": {
+        "name": "crates.io"
+      },
+      "status": null,
+      "funding_links": [
+        "https://github.com/sponsors/dtolnay"
+      ],
+      "latest_release_published_at": "2026-07-18T23:05:13.266Z",
+      "repository_url": "https://github.com/serde-rs/serde",
+      "registry_url": "https://crates.io/crates/serde/",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2026-09-22T03:42:04.000Z",
+        "commit_stats": {
+          "total_commits": 3372,
+          "total_committers": 194,
+          "dds": 0.4092526690391459
+        }
+      }
+    },
+    {
+      "name": "thiserror",
+      "ecosystem": "cargo",
+      "purl": "pkg:cargo/thiserror",
+      "registry": {
+        "name": "crates.io"
+      },
+      "status": null,
+      "funding_links": [
+        "https://github.com/sponsors/dtolnay"
+      ],
+      "latest_release_published_at": "2026-09-23T20:24:07.771Z",
+      "repository_url": "https://github.com/dtolnay/thiserror",
+      "registry_url": "https://crates.io/crates/thiserror/",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2026-10-09T03:51:17.000Z",
+        "commit_stats": {
+          "total_commits": 589,
+          "total_committers": 18,
+          "dds": 0.04584040747028861
+        }
+      }
+    },
+    {
+      "name": "github.com/davecgh/go-spew",
+      "ecosystem": "go",
+      "purl": "pkg:golang/github.com/davecgh/go-spew",
+      "registry": {
+        "name": "proxy.golang.org"
+      },
+      "status": null,
+      "funding_links": [],
+      "latest_release_published_at": "2018-02-21T23:26:28.000Z",
+      "repository_url": "https://github.com/davecgh/go-spew",
+      "registry_url": "https://pkg.go.dev/github.com/davecgh/go-spew",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2024-04-06T10:36:47.000Z",
+        "commit_stats": {
+          "total_commits": 143,
+          "total_committers": 20,
+          "dds": 0.2027972027972028
+        }
+      }
+    },
+    {
+      "name": "github.com/inconshreveable/mousetrap",
+      "ecosystem": "go",
+      "purl": "pkg:golang/github.com/inconshreveable/mousetrap",
+      "registry": {
+        "name": "proxy.golang.org"
+      },
+      "status": null,
+      "funding_links": [],
+      "latest_release_published_at": "2022-11-27T22:01:53.000Z",
+      "repository_url": "https://github.com/inconshreveable/mousetrap",
+      "registry_url": "https://pkg.go.dev/github.com/inconshreveable/mousetrap",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2022-11-29T17:47:50.000Z",
+        "commit_stats": null
+      }
+    },
+    {
+      "name": "github.com/mitchellh/mapstructure",
+      "ecosystem": "go",
+      "purl": "pkg:golang/github.com/mitchellh/mapstructure",
+      "registry": {
+        "name": "proxy.golang.org"
+      },
+      "status": null,
+      "funding_links": [],
+      "latest_release_published_at": "2022-04-20T22:31:31.000Z",
+      "repository_url": "https://github.com/mitchellh/mapstructure",
+      "registry_url": "https://pkg.go.dev/github.com/mitchellh/mapstructure",
+      "repo_metadata": {
+        "archived": true,
+        "pushed_at": "2024-06-25T15:17:23.000Z",
+        "commit_stats": {
+          "total_commits": 236,
+          "total_committers": 67,
+          "dds": 0.3813559322033898
+        }
+      }
+    },
+    {
+      "name": "github.com/pkg/errors",
+      "ecosystem": "go",
+      "purl": "pkg:golang/github.com/pkg/errors",
+      "registry": {
+        "name": "proxy.golang.org"
+      },
+      "status": null,
+      "funding_links": [],
+      "latest_release_published_at": "2020-01-14T19:47:44.000Z",
+      "repository_url": "https://github.com/pkg/errors",
+      "registry_url": "https://pkg.go.dev/github.com/pkg/errors",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2026-03-27T15:11:52.000Z",
+        "commit_stats": null
+      }
+    },
+    {
+      "name": "github.com/spf13/cobra",
+      "ecosystem": "go",
+      "purl": "pkg:golang/github.com/spf13/cobra",
+      "registry": {
+        "name": "proxy.golang.org"
+      },
+      "status": null,
+      "funding_links": [],
+      "latest_release_published_at": "2025-12-03T23:51:15.000Z",
+      "repository_url": "https://github.com/spf13/cobra",
+      "registry_url": "https://pkg.go.dev/github.com/spf13/cobra",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2026-07-11T00:43:07.000Z",
+        "commit_stats": {
+          "total_commits": 940,
+          "total_committers": 319,
+          "dds": 0.8797872340425532
+        }
+      }
+    },
+    {
+      "name": "github.com/spf13/pflag",
+      "ecosystem": "go",
+      "purl": "pkg:golang/github.com/spf13/pflag",
+      "registry": {
+        "name": "proxy.golang.org"
+      },
+      "status": null,
+      "funding_links": [],
+      "latest_release_published_at": "2025-09-02T06:08:29.000Z",
+      "repository_url": "https://github.com/spf13/pflag",
+      "registry_url": "https://pkg.go.dev/github.com/spf13/pflag",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2026-09-21T07:43:12.000Z",
+        "commit_stats": null
+      }
+    },
+    {
+      "name": "chalk",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/chalk",
+      "registry": {
+        "name": "npmjs.org"
+      },
+      "status": null,
+      "funding_links": [
+        "https://github.com/chalk/chalk?sponsor=1",
+        "https://github.com/sponsors/sindresorhus",
+        "https://github.com/sponsors/Qix-"
+      ],
+      "latest_release_published_at": "2026-09-27T03:40:44.397Z",
+      "repository_url": "https://github.com/chalk/chalk",
+      "registry_url": "https://www.npmjs.com/package/chalk",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2026-09-27T03:37:36.000Z",
+        "commit_stats": {
+          "total_commits": 337,
+          "total_committers": 69,
+          "dds": 0.4688427299703264
+        }
+      }
+    },
+    {
+      "name": "commander",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/commander",
+      "registry": {
+        "name": "npmjs.org"
+      },
+      "status": null,
+      "funding_links": [
+        "https://github.com/sponsors/shadowspawn",
+        "https://github.com/sponsors/abetomo",
+        "https://github.com/sponsors/tj",
+        "https://tidelift.com/funding/github/npm/commander"
+      ],
+      "latest_release_published_at": "2026-05-29T09:16:23.076Z",
+      "repository_url": "https://github.com/tj/commander.js",
+      "registry_url": "https://www.npmjs.com/package/commander",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2026-10-12T10:20:16.000Z",
+        "commit_stats": {
+          "total_commits": 1117,
+          "total_committers": 186,
+          "dds": 0.5801253357206804
+        }
+      }
+    },
+    {
+      "name": "express",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/express",
+      "registry": {
+        "name": "npmjs.org"
+      },
+      "status": null,
+      "funding_links": [
+        "https://opencollective.com/express"
+      ],
+      "latest_release_published_at": "2026-10-09T12:56:54.505Z",
+      "repository_url": "https://github.com/expressjs/express",
+      "registry_url": "https://www.npmjs.com/package/express",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2026-10-09T16:24:39.000Z",
+        "commit_stats": {
+          "total_commits": 5509,
+          "total_committers": 348,
+          "dds": 0.3597749137774551
+        }
+      }
+    },
+    {
+      "name": "left-pad",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/left-pad",
+      "registry": {
+        "name": "npmjs.org"
+      },
+      "status": "deprecated",
+      "funding_links": [],
+      "latest_release_published_at": "2018-04-09T01:10:45.796Z",
+      "repository_url": "https://github.com/stevemao/left-pad",
+      "registry_url": "https://www.npmjs.com/package/left-pad",
+      "repo_metadata": {
+        "archived": true,
+        "pushed_at": "2019-04-19T14:16:20.000Z",
+        "commit_stats": null
+      }
+    },
+    {
+      "name": "request",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/request",
+      "registry": {
+        "name": "npmjs.org"
+      },
+      "status": "deprecated",
+      "funding_links": [],
+      "latest_release_published_at": "2020-02-11T16:35:36.122Z",
+      "repository_url": "https://github.com/request/request",
+      "registry_url": "https://www.npmjs.com/package/request",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2024-08-14T00:09:41.000Z",
+        "commit_stats": {
+          "total_commits": 1590,
+          "total_committers": 346,
+          "dds": 0.7691823899371069
+        }
+      }
+    },
+    {
+      "name": "vitest",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/vitest",
+      "registry": {
+        "name": "npmjs.org"
+      },
+      "status": null,
+      "funding_links": [
+        "https://opencollective.com/vitest",
+        "https://github.com/sponsors/vitest-dev"
+      ],
+      "latest_release_published_at": "2026-10-15T14:29:01.396Z",
+      "repository_url": "https://github.com/vitest-dev/vitest",
+      "registry_url": "https://www.npmjs.com/package/vitest",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2026-10-15T14:36:26.000Z",
+        "commit_stats": {
+          "total_commits": 4285,
+          "total_committers": 541,
+          "dds": 0.7024504084014003
+        }
+      }
+    },
+    {
+      "name": "yaml",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/yaml",
+      "registry": {
+        "name": "npmjs.org"
+      },
+      "status": null,
+      "funding_links": [
+        "https://github.com/sponsors/eemeli",
+        "https://tidelift.com/funding/github/npm/yaml"
+      ],
+      "latest_release_published_at": "2026-09-11T20:30:10.905Z",
+      "repository_url": "https://github.com/eemeli/yaml",
+      "registry_url": "https://www.npmjs.com/package/yaml",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2026-09-23T03:13:23.000Z",
+        "commit_stats": {
+          "total_commits": 1448,
+          "total_committers": 28,
+          "dds": 0.03453038674033149
+        }
+      }
+    },
+    {
+      "name": "attrs",
+      "ecosystem": "pypi",
+      "purl": "pkg:pypi/attrs",
+      "registry": {
+        "name": "pypi.org"
+      },
+      "status": null,
+      "funding_links": [
+        "https://github.com/sponsors/hynek",
+        "https://tidelift.com/funding/github/pypi/attrs",
+        "https://thanks.dev/u/gh/python-attrs",
+        "https://hynek.me/say-thanks/"
+      ],
+      "latest_release_published_at": "2026-03-19T14:22:23.000Z",
+      "repository_url": "https://github.com/python-attrs/attrs",
+      "registry_url": "https://pypi.org/project/attrs/",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2026-10-01T12:47:10.000Z",
+        "commit_stats": {
+          "total_commits": 1599,
+          "total_committers": 169,
+          "dds": "0.23389618511569732"
+        }
+      }
+    },
+    {
+      "name": "click",
+      "ecosystem": "pypi",
+      "purl": "pkg:pypi/click",
+      "registry": {
+        "name": "pypi.org"
+      },
+      "status": null,
+      "funding_links": [
+        "https://palletsprojects.com/donate",
+        "https://github.com/sponsors/pallets",
+        "https://tidelift.com/funding/github/pypi/Flask",
+        "https://thanks.dev/u/gh/pallets"
+      ],
+      "latest_release_published_at": "2026-08-26T13:33:12.000Z",
+      "repository_url": "https://github.com/pallets/click",
+      "registry_url": "https://pypi.org/project/click/",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2026-09-23T04:07:18.000Z",
+        "commit_stats": {
+          "total_commits": 1633,
+          "total_committers": 383,
+          "dds": 0.7152480097979179
+        }
+      }
+    },
+    {
+      "name": "nose",
+      "ecosystem": "pypi",
+      "purl": "pkg:pypi/nose",
+      "registry": {
+        "name": "pypi.org"
+      },
+      "status": null,
+      "funding_links": [],
+      "latest_release_published_at": "2015-06-02T09:12:36.000Z",
+      "repository_url": "https://github.com/nose-devs/nose",
+      "registry_url": "https://pypi.org/project/nose/",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2023-11-06T17:25:08.000Z",
+        "commit_stats": {
+          "total_commits": 863,
+          "total_committers": 96,
+          "dds": 0.6164542294322133
+        }
+      }
+    },
+    {
+      "name": "requests",
+      "ecosystem": "pypi",
+      "purl": "pkg:pypi/requests",
+      "registry": {
+        "name": "pypi.org"
+      },
+      "status": null,
+      "funding_links": [
+        "https://www.python.org/psf/sponsorship/",
+        "https://github.com/sponsors/psf"
+      ],
+      "latest_release_published_at": "2026-05-14T19:25:26.000Z",
+      "repository_url": "https://github.com/psf/requests",
+      "registry_url": "https://pypi.org/project/requests/",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2026-09-28T16:55:48.000Z",
+        "commit_stats": {
+          "total_commits": 4733,
+          "total_committers": 742,
+          "dds": 0.6843439678850624
+        }
+      }
+    },
+    {
+      "name": "rich",
+      "ecosystem": "pypi",
+      "purl": "pkg:pypi/rich",
+      "registry": {
+        "name": "pypi.org"
+      },
+      "status": null,
+      "funding_links": [
+        "https://github.com/sponsors/willmcgugan"
+      ],
+      "latest_release_published_at": "2026-04-12T08:24:02.000Z",
+      "repository_url": "https://github.com/Textualize/rich",
+      "registry_url": "https://pypi.org/project/rich/",
+      "repo_metadata": {
+        "archived": false,
+        "pushed_at": "2026-06-23T03:10:19.000Z",
+        "commit_stats": {
+          "total_commits": 3152,
+          "total_committers": 268,
+          "dds": "0.41275380710659904"
+        }
+      }
+    }
+  ]
+}

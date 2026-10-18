@@ -1,0 +1,52 @@
+name: 'fundscan'
+description: 'See who to fund and which dependencies are at risk, across npm, PyPI, Cargo and Go.'
+
+branding:
+  icon: 'heart'
+  color: 'purple'
+
+inputs:
+  path:
+    description: 'Directory to scan, relative to the workspace.'
+    required: false
+    default: '.'
+  all:
+    description: 'Include transitive dependencies from lockfiles.'
+    required: false
+    default: 'false'
+  dev:
+    description: 'Include development dependencies.'
+    required: false
+    default: 'false'
+  recursive:
+    description: 'Also scan subdirectories.'
+    required: false
+    default: 'false'
+  budget:
+    description: 'Suggest how to split this amount across funding destinations. Leave empty to skip.'
+    required: false
+    default: ''
+  currency:
+    description: 'Currency label for budget.'
+    required: false
+    default: 'USD'
+  fail-on:
+    description: 'Comma-separated health flags that fail the run: deprecated, archived, stale, concentrated, unknown.'
+    required: false
+    default: ''
+
+outputs:
+  dependency-count:
+    description: 'Number of dependencies scanned.'
+  flagged-count:
+    description: 'Number of dependencies with at least one health flag.'
+  destination-count:
+    description: 'Number of funding destinations found.'
+  funding-destinations:
+    description: 'JSON array of destination URLs, the one covering the most dependencies first.'
+  report-json:
+    description: 'Path to the full JSON report.'
+
+runs:
+  using: 'node24'
+  main: 'dist/index.js'

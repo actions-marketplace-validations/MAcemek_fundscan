@@ -1,0 +1,22 @@
+version = 1
+requires-python = ">=3.12"
+
+[[package]]
+name = "anyio"
+version = "4.9.0"
+source = { registry = "https://pypi.org/simple" }
+
+[[package]]
+name = "httpx"
+version = "0.28.1"
+source = { registry = "https://pypi.org/simple" }
+
+[[package]]
+name = "uv-fixture"
+version = "0.1.0"
+source = { editable = "." }
+
+[[package]]
+name = "from-git"
+version = "1.0.0"
+source = { git = "https://github.com/example/from-git.git#abc123" }

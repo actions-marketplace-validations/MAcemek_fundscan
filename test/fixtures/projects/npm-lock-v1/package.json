@@ -1,0 +1,6 @@
+{
+  "name": "old-lock",
+  "dependencies": {
+    "left-pad": "^1.3.0"
+  }
+}

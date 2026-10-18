@@ -1,0 +1,16 @@
+{
+  "name": "fundscan-demo",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "chalk": "^5.6.0",
+    "commander": "^14.0.0",
+    "express": "^5.1.0",
+    "left-pad": "^1.3.0",
+    "request": "^2.88.2",
+    "yaml": "^2.8.0"
+  },
+  "devDependencies": {
+    "vitest": "^4.0.0"
+  }
+}

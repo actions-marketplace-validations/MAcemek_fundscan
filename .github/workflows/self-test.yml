@@ -1,0 +1,34 @@
+name: Self test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  fundscan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - id: fundscan
+        uses: ./
+        with:
+          dev: true
+          budget: 100
+
+      - name: Show outputs
+        env:
+          DEPENDENCIES: ${{ steps.fundscan.outputs.dependency-count }}
+          FLAGGED: ${{ steps.fundscan.outputs.flagged-count }}
+          DESTINATIONS: ${{ steps.fundscan.outputs.destination-count }}
+          REPORT: ${{ steps.fundscan.outputs.report-json }}
+        run: |
+          echo "dependencies: $DEPENDENCIES"
+          echo "flagged: $FLAGGED"
+          echo "destinations: $DESTINATIONS"
+          echo "report: $REPORT"

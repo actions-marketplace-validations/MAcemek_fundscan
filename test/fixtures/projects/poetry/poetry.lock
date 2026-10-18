@@ -1,0 +1,45 @@
+[[package]]
+name = "Django"
+version = "5.2.0"
+optional = false
+python-versions = ">=3.10"
+groups = ["main"]
+
+[[package]]
+name = "sqlparse"
+version = "0.5.3"
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+
+[[package]]
+name = "pytest"
+version = "8.4.0"
+optional = false
+python-versions = ">=3.9"
+groups = ["test"]
+
+[[package]]
+name = "pluggy"
+version = "1.6.0"
+category = "dev"
+optional = false
+python-versions = ">=3.9"
+
+[[package]]
+name = "from-git"
+version = "1.0.0"
+optional = false
+python-versions = "*"
+groups = ["main"]
+
+[package.source]
+type = "git"
+url = "https://github.com/example/from-git.git"
+reference = "HEAD"
+resolved_reference = "abc123"
+
+[metadata]
+lock-version = "2.1"
+python-versions = "^3.12"
+content-hash = "0000"

@@ -1,0 +1,14 @@
+# Production requirements
+Requests[security]>=2.32 ; python_version >= "3.9"
+click==8.3.0 \
+    --hash=sha256:0000000000000000000000000000000000000000000000000000000000000000
+PyYAML
+typing_extensions>=4
+zope.interface  # inline comment
+-r requirements-dev.txt
+--index-url https://pypi.example.com/simple
+-e git+https://github.com/example/editable.git#egg=editable
+git+https://github.com/example/direct.git
+./local/path
+mypkg @ https://example.com/mypkg-1.0.tar.gz
+!!invalid!!

@@ -1,0 +1,24 @@
+{
+  "name": "npm-fixture",
+  "dependencies": {
+    "express": "^5.1.0",
+    "@types/node": "^24.0.0",
+    "my-alias": "npm:chalk@^5.0.0",
+    "local-lib": "file:../local-lib",
+    "ws-lib": "workspace:*",
+    "from-git": "git+https://github.com/example/from-git.git",
+    "shorthand": "example/shorthand#main",
+    "tarball": "https://example.com/pkg.tgz",
+    "not-a-string": 5
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.3"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.0",
+    "express": "^5.1.0"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  }
+}

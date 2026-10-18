@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "poetry-fixture"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "^5.2"
+requests = { version = "^2.32", extras = ["socks"] }
+attrs = [
+  { version = "^25.1", python = ">=3.12" },
+  { version = "^24.0", python = "<3.12" },
+]
+local-lib = { path = "../local-lib", develop = true }
+from-git = { git = "https://github.com/example/from-git.git" }
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.0"
+
+[tool.poetry.dev-dependencies]
+black = "^25.1"

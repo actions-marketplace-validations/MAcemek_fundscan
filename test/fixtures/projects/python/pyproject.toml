@@ -1,0 +1,15 @@
+[project]
+name = "python-fixture"
+version = "0.1.0"
+dependencies = [
+  "httpx>=0.28",
+  "Rich",
+  "local @ file:///tmp/local",
+]
+
+[project.optional-dependencies]
+docs = ["mkdocs>=1.6"]
+
+[dependency-groups]
+test = ["pytest>=8", { include-group = "lint" }]
+lint = ["ruff"]

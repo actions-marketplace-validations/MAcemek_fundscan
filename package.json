@@ -1,0 +1,66 @@
+{
+  "name": "fundscan",
+  "version": "0.1.0",
+  "description": "See who to fund and which dependencies are at risk, across npm, PyPI, Cargo and Go.",
+  "type": "module",
+  "bin": {
+    "fundscan": "lib/index.js"
+  },
+  "files": [
+    "lib/"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "npm run build:action && npm run build:cli",
+    "build:action": "ncc build src/action.ts -o dist --license licenses.txt",
+    "build:cli": "ncc build src/cli.ts -o lib --license licenses.txt",
+    "typecheck": "tsc -p tsconfig.json",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "demo": "tsx scripts/demo.ts",
+    "record-fixtures": "tsx scripts/record-fixtures.ts",
+    "prepack": "npm run build:cli",
+    "all": "npm run format:check && npm run lint && npm run typecheck && npm test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAcemek/fundscan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MAcemek/fundscan/issues"
+  },
+  "homepage": "https://github.com/MAcemek/fundscan#readme",
+  "keywords": [
+    "funding",
+    "sponsors",
+    "dependencies",
+    "open-source",
+    "supply-chain",
+    "npm",
+    "pypi",
+    "cargo",
+    "go",
+    "github-action",
+    "cli"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@actions/core": "3.0.1",
+    "@eslint/js": "10.0.1",
+    "@types/node": "24.19.2",
+    "@vercel/ncc": "0.45.0",
+    "eslint": "10.13.0",
+    "globals": "17.13.0",
+    "prettier": "3.9.10",
+    "smol-toml": "1.9.1",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.71.2",
+    "vitest": "5.0.5"
+  }
+}
